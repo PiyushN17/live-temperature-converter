@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.submission {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.submission label,
+.submission input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submission input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.submission input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+#errorMsg {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
